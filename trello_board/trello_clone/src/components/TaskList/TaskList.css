@@ -1,0 +1,43 @@
+.task-list {
+    background: #ebecf0;
+    max-width: 320px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: flex-start;
+}
+
+.task-header span {
+    cursor: pointer;
+}
+
+.task-list-options {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 3px;
+    left: 80%;
+    z-index: 5;
+    padding: 10px 0;
+    box-shadow: 0 8px 16px -4px rgba(9,30,66,.25),0 0 0 1px rgba(9,30,66,.08);
+}
+
+.task-list-options li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.task-list-options li:hover {
+    background: #eee;
+}
+
+.hidden {
+    display: none;
+    transition: all 0.4s ease-in-out;
+}

@@ -1,0 +1,29 @@
+.create-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    /* background-color: lightgreen; */
+    /* box-shadow: 0 8px 16px -4px rgba(9,30,66,.25),0 0 0 1px rgba(9,30,66,.08); */
+}
+
+.create-modal input {
+    width: 350px;
+}
+
+.create-modal .btn-wrapper {
+
+}
+
+.create-modal .btn-wrapper button {
+    padding: 15px;
+    /* background: blue; */
+    /* color: #fff; */
+    /* border: none; */
+}
+
+.create-modal:last-of-type(button) {
+    /* background: red; */
+    /* color: #fff; */
+}
