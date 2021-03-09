@@ -1,2 +1,2 @@
 # Trello-Clone
-trello clone using React.Js. 
+Day 1 of creating Trello clone using React.Js. 
